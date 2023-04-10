@@ -6,4 +6,9 @@ echo "Hello World !";
 // Int (nombre entier)
 // Float (nombre flottant ou à virgule)
 // Bool (booléen : true ou false)
+$age = 38;
+$message = "Coucou tout le monde !";
+
+echo "<br/>";
+echo $message;
 

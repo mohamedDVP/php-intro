@@ -7,9 +7,24 @@
     <title>PHP Studi</title>
 </head>
 <body>
+    <h1>
+        <?php echo "Hello Studi"; ?>
+    </h1>
     <?php
-        //Hello World
-        echo "Hello World";
+        // Le "=" est un opérateur d'affectation
+        // Il fonctionne de droite à gauche
+        $age = 38;
+        // Le "." est un opérateur de concaténation
+        // On pourra chainer l'affichage de plusieurs données à la suite
+        echo 'J\'ai ' . $age . ' ans';
+    ?>
+    <br/>
+    <?php
+        echo "J'ai " . $age . " ans";
+        $numero = 1;
+        echo "<br/>" . $numero;
+        $numero = $numero + 1;
+        echo "<br/>" . $numero;
     ?>
 </body>
 </html>
