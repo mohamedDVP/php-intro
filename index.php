@@ -23,8 +23,10 @@
         echo "J'ai " . $age . " ans";
         $numero = 1;
         echo "<br/>" . $numero;
-        $numero = $numero + 1;
+        $numero += 3; // Equivalent : $numero = $numero + 3;
         echo "<br/>" . $numero;
+        $numero ++; //Equivalent : $numero +=1;
+        echo "<br/>". $numero;
     ?>
 </body>
 </html>
