@@ -60,7 +60,7 @@ $d = 1; // Instruction d'initialisation
 do {
     echo $d . " - ";
     $d++; // Instruction de pas
-} while ($d < 11) // Condition de maintien
+} while ($d < 11); // Condition de maintien
 
 echo "<br/>";
 echo "<br/>";
