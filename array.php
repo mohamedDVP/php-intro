@@ -55,7 +55,15 @@ echo "<br/>";
 echo "<br/>";
 
 // Do ... While
+// Différence avec while : on executera toujours la première itératopn
+$d = 1; // Instruction d'initialisation
+do {
+    echo $d . " - ";
+    $d++; // Instruction de pas
+} while ($d < 11) // Condition de maintien
 
+echo "<br/>";
+echo "<br/>";
 // For sur un tableau
 // eut être compliqué si on a des clés personnalisées
 for($d = 0; $d < count($array) ; $d++) {
