@@ -57,9 +57,20 @@ echo "<br/>";
 // Do ... While
 
 // For sur un tableau
+// eut être compliqué si on a des clés personnalisées
 for($d = 0; $d < count($array) ; $d++) {
-    echo $array[$d]. " - ";
+    if(array_key_exists($d, $array)){
+        // Execution si condition est vraie (true)
+        echo $array[$d]. " - ";
+    }else 
+    {
+        // Execution si condition est fausse (false)
+        echo ";) - ";
+    }
+    
 }
 echo "<br/>";
 echo "<br/>";
+
+
 ?>
