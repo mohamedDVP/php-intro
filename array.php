@@ -73,7 +73,7 @@ for($d = 0; $d < count($array) ; $d++) {
     }else 
     {
         // Execution si condition est fausse (false)
-        echo ";) - ";
+        echo " - ";
     }
     
 }
@@ -88,5 +88,9 @@ $associativeArray = [
 ];
 
 var_dump($associativeArray);
+
+echo "<br/>";
+echo $associativeArray["name"];
+
 
 ?>
