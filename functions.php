@@ -30,3 +30,4 @@ $userAge = 15;
 // }
 
 echo isAgeLegal($userAge) ? "Majeur" : "Mineur";
+
